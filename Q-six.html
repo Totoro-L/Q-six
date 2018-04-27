@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>六边形</title>
+<style type="text/css">
+body{
+	width:1000px;
+	height:1000px;
+	position:relative;
+}
+.test1,.test2,.test3{
+	position:absolute;
+	top:50px;
+	left:500px;
+    width:123px;
+    height:283px;
+	border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+}
+.test1{
+	border-bottom: 17px solid red;
+    border-top: 17px solid green;
+	transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg); /* IE 9 */
+	-webkit-transform: rotate(-20deg); /* Safari and Chrome */
+}
+.test2{
+	border-bottom: 17px solid purple;
+    border-top: 17px solid yellow;
+	transform: rotate(40deg);
+	-ms-transform: rotate(40deg); /* IE 9 */
+	-webkit-transform: rotate(40deg); /* Safari and Chrome */
+}
+.test3{
+	border-bottom: 17px solid pink;
+    border-top: 17px solid blue;
+	transform: rotate(-80deg);
+	-ms-transform: rotate(-80deg); /* IE 9 */
+	-webkit-transform: rotate(-80deg); /* Safari and Chrome */
+}
+</style>
+</head>
+<body>
+	<div class="test1"></div>
+	<div class="test2"></div>
+	<div class="test3"></div>
+</body>
+</html>
